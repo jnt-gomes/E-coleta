@@ -1,0 +1,139 @@
+.page-creat-point {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.page-creat-point header {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.page-creat-point header a {
+    display: flex;
+    color: #432371;
+    font-weight: 900;
+    text-decoration: none;
+    font-family: consolas;
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.5em;
+}
+.page-creat-point header a span {
+    margin-right: 10px;
+    background-image: url(../img/arrow-left.svg);
+    display: flex;
+    width: 20px;
+    height: 28px;
+}
+form {
+    background-color: #fff;
+    margin: 30px auto;
+    padding: 50px;
+    border-radius: 6px;
+    max-width: 900px;
+    box-shadow: 0 0 5px 1px #000;
+}
+form h1 {
+    font-size: 2.8em;
+    font-weight: 900;
+    color: #432371;
+    font-family: 'Slabo 13px', serif;
+    text-align: center;
+}
+form fieldset {
+    margin-top: 40px;
+    border: 0;
+}
+form legend {
+    margin-bottom: 40px;
+}
+form h2 {
+    font-size: 1.9em;
+    font-weight: 900;
+    color: #432371;
+    font-family: 'Slabo 13px', serif;
+}
+form .field {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+form .field-group {
+    display: flex;
+}
+form input,
+form select {
+    background-color: #c6ecc6;
+    border: 2px outset #008040;
+    padding: 15px 25px;
+    font-size: 1.2em;
+    border-radius: 8px;
+    color: #432371;
+    font-family: 'Inconsolata', monospace;
+}
+form select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+form label {
+    font-size: 1.3em;
+    margin-bottom: 5px;
+    color: #432371;
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
+}
+form .field-group .field + .field {
+    margin-left: 20px;
+}
+form button {
+    margin-top: 50px;
+    width: 300px;
+    height: 60px;
+    background-color: #00e673;
+    border-radius: 7px;
+    font-size: 1.3em;
+    line-height: 60px;
+    font-weight: 700;
+    color: #432371;
+    border: 2px outset #008040;
+    transition: background-color 0.4s;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #008040;
+    color: #29104d;
+}
+.itens-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+.itens-grid li {
+    height: 160px;
+    background-color: #c6ecc6;
+    list-style: none;
+    border: 3px outset #008040;
+    border-radius: 7px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.itens-grid li img {
+    pointer-events: none;
+}
+.itens-grid li span {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #432371;
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
+    pointer-events: none;
+}
+.itens-grid li.selected {
+    background-color: #e6ccff;
+    border: 3px outset #432371
+}

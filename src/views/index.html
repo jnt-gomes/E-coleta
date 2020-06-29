@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+    {% block styles %}
+        <link rel="stylesheet" href="/style/modal.css">
+    {% endblocks styles %}
+
+    <title>E-coleta Home</title>
+</head>
+<body>
+    {# class="page-home" #}
+        <div class="content">
+            <header>
+                <img src="/img/logo.svg" alt="Logomarca">
+                <a href="/creat-point">
+                    <span></span>
+                    <p>Cadastre um ponto de coleta</p> 
+                </a>
+            </header>
+            <main>
+                <h1>Seu marketplace de controle de resíduos</h1>
+                <p>Ajudamos pessoas a encontrar pontos de forma eficiente</p>
+                <a href="#"><span></span><strong>Pesquisar ponto de coleta</strong></a>
+            </main>
+        </div>
+
+    {% include "partials/modal.html" %}
+
+    <script src="/Script/index.js"></script>
+</body>
+</html>

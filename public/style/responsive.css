@@ -1,0 +1,18 @@
+@media screen and (max-width: 900px) {
+    .page-home {
+        background-position: 18vw 0vh;
+    }
+    .page-home .content {
+        align-items: center;
+        text-align: center;
+    }
+    .page-home main {
+        align-items: center;
+    }
+    .page-home .content main h1 {
+        font-size: 2.5em;
+        font-weight: 900;
+        color: #432371;
+        font-family: 'Slabo 13px', serif;
+    }
+}
